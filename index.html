@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <title>正在跳转...</title>
+  <script>
+    if (document.referrer) {
+      window.location.href = document.referrer;
+    } else {
+      document.body.innerHTML = "<p>没有来源页，无法跳转。</p>";
+    }
+  </script>
+</head>
+<body>
+  <p>正在跳转，请稍候...</p>
+</body>
+</html>
